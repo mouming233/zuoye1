@@ -123,32 +123,32 @@ zuoye3/fast:
 	$(MAKE) -f CMakeFiles/zuoye3.dir/build.make CMakeFiles/zuoye3.dir/build
 .PHONY : zuoye3/fast
 
-zuoye3.o: zuoye3.cpp.o
+zuoye4.o: zuoye4.cpp.o
 
-.PHONY : zuoye3.o
+.PHONY : zuoye4.o
 
 # target to build an object file
-zuoye3.cpp.o:
-	$(MAKE) -f CMakeFiles/zuoye3.dir/build.make CMakeFiles/zuoye3.dir/zuoye3.cpp.o
-.PHONY : zuoye3.cpp.o
+zuoye4.cpp.o:
+	$(MAKE) -f CMakeFiles/zuoye3.dir/build.make CMakeFiles/zuoye3.dir/zuoye4.cpp.o
+.PHONY : zuoye4.cpp.o
 
-zuoye3.i: zuoye3.cpp.i
+zuoye4.i: zuoye4.cpp.i
 
-.PHONY : zuoye3.i
+.PHONY : zuoye4.i
 
 # target to preprocess a source file
-zuoye3.cpp.i:
-	$(MAKE) -f CMakeFiles/zuoye3.dir/build.make CMakeFiles/zuoye3.dir/zuoye3.cpp.i
-.PHONY : zuoye3.cpp.i
+zuoye4.cpp.i:
+	$(MAKE) -f CMakeFiles/zuoye3.dir/build.make CMakeFiles/zuoye3.dir/zuoye4.cpp.i
+.PHONY : zuoye4.cpp.i
 
-zuoye3.s: zuoye3.cpp.s
+zuoye4.s: zuoye4.cpp.s
 
-.PHONY : zuoye3.s
+.PHONY : zuoye4.s
 
 # target to generate assembly for a file
-zuoye3.cpp.s:
-	$(MAKE) -f CMakeFiles/zuoye3.dir/build.make CMakeFiles/zuoye3.dir/zuoye3.cpp.s
-.PHONY : zuoye3.cpp.s
+zuoye4.cpp.s:
+	$(MAKE) -f CMakeFiles/zuoye3.dir/build.make CMakeFiles/zuoye3.dir/zuoye4.cpp.s
+.PHONY : zuoye4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... zuoye3"
-	@echo "... zuoye3.o"
-	@echo "... zuoye3.i"
-	@echo "... zuoye3.s"
+	@echo "... zuoye4.o"
+	@echo "... zuoye4.i"
+	@echo "... zuoye4.s"
 .PHONY : help
 
 

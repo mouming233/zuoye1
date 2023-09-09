@@ -8,6 +8,6 @@ find_package(OpenCV 4.5.3 REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # include
-add_executable(zuoye3 zuoye3.cpp)
+add_executable(zuoye3 zuoye4.cpp)
 
 target_link_libraries(zuoye3 ${OpenCV_LIBS})

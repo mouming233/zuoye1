@@ -22,7 +22,7 @@ int main()
     for (int i = 0; i < capture.get(7); i++)
     {
         capture >> frame;
-        putText(frame, to_string(i), Point(50, 50), FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 0, 255), 2, 8);
+        // putText(frame, to_string(i), Point(50, 50), FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 0, 255), 2, 8);
         imshow("frame", frame);
         
         if(i==1905)

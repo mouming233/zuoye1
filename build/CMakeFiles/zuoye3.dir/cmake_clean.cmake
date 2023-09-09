@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zuoye3.dir/zuoye3.cpp.o"
+  "CMakeFiles/zuoye3.dir/zuoye4.cpp.o"
   "zuoye3"
   "zuoye3.pdb"
 )
